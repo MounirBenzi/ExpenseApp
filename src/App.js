@@ -1,5 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
+import NewExpense from "./components/NewExpense/NewExpense";
 import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
+        <NewExpense/>
         <Expenses expenses={expenses} />
       </header>
     </div>
